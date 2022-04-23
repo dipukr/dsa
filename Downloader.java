@@ -70,7 +70,7 @@ public class Downloader {
 	public double getProgress() {return ((double)count/size)*100;}
 
 	public static void main(String[] args) throws Exception {
-		String addr = "https://www.sfml-dev.org/index.php";
+		String addr = "https://stackoverflow.com/questions/tagged/python";
 		URL url = new URL(addr);
 		Downloader downloader = new Downloader(url);
 		downloader.download();
